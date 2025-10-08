@@ -1,0 +1,4 @@
+{
+  "name": "ts-native-preview-yarn-pnp",
+  "packageManager": "yarn@6.0.0-rc.4"
+}
