@@ -2,5 +2,7 @@
 <project version="4">
   <component name="TypeScriptCompiler">
     <option name="nodeInterpreterTextField" value="$USER_HOME$/.yarn/switch/bin/yarn" />
+    <option name="typeScriptServiceDirectory" value="yarn:package.json:@typescript/native-preview" />
+    <option name="versionType" value="SERVICE_DIRECTORY" />
   </component>
 </project>
