@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Bidirectional Telemetry Wrapper
+# Uses Node.js to intercept both stdin and stdout of tsgo binary
+
+# Configuration - paths relative to this script's location
+SCRIPT_DIR="$(dirname "$0")"
+COMMAND_PATH="$SCRIPT_DIR/tsgo-binary"
+TELEMETRY_WRAPPER="$SCRIPT_DIR/tsgo-wrapper.js"
+
+# Execute the Node.js wrapper with all arguments
+node "$TELEMETRY_WRAPPER" "$COMMAND_PATH" "$@"
